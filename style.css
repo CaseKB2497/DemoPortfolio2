@@ -9,4 +9,8 @@ body {
   height: 200px;
 }
 
+.card-img-top {
+  width="500";
+  height="300";
+}
 
