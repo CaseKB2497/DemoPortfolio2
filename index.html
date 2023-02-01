@@ -49,24 +49,24 @@
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="images/bgimage.jpg" class="d-block w-100" alt="BinaryCodePicture" style="height: 400px;">
+        <img src="images/bgimage.jpg" class="d-block w-100" alt="BinaryCodePicture" style="height: 345px;">
         <div class="carousel-caption d-none d-md-block">
           <h5>Kristopher B. Case</h5>
-          <p>Professional Portfolio </p>
+          <p>Professional Portfolio</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="images/hero-1.jpg" class="d-block w-100" alt="Hero 2" style="height: 400px;">
+        <img src="images/mine-sweeper-img.jpg" class="d-block w-100" alt="MineSweeper Code Img" style="height: 345px;">
         <div class="carousel-caption d-none d-md-block">
-          <h5>Hero 2</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h5>Production Support Engineer</h5>
+          <p>See more on Resume page</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="images/hero-2.jpg" class="d-block w-100" alt="Hero 3" style="height: 400px;">
+        <img src="images/bash-img.jpg" class="d-block w-100" alt="Bash Code Img" style="height: 345px;">
         <div class="carousel-caption d-none d-md-block">
-          <h5>Hero 3</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h5>Full Stack Development</h5>
+          <p>Check out some of the projects I've worked on</p>
         </div>
       </div>
     </div>
@@ -83,9 +83,26 @@
   <!-- Home Page Content -->
   <div class="container mt-5">
     <h1 class="display-4 text-center">Welcome to my Professional Portfolio</h1>
-    <p class="lead text-center">Thank you for visiting my personal portfolio website. Here you can find out more about me and my work as a software engineer.</p>
-    <p class="text-center">Fun fact: This portfolio was designed entirely using artificial intelligence.. most of the credit goes to chatGPT with only small help from myself when needed :)</p>
+    <p class="lead text-center">Thank you for visiting my personal portfolio website. The purpose of this site is primarily to practice
+      some of my more rusty front-end development skills. Additionally, I wanted to see how useful OpenAI's ChatGPT artificial intelligence was in the development
+      process. I used the AI to generate templates for most of the pages seen here, using HTML, CSS, & Bootstrap. I figured this would be a neat way to showcase
+      my skillset or lack thereof and highlight a few different coding projects I've worked on. Finally, I wanted a chance to use my newfound AWS knowledge
+      to host the site on an EC2 instance.</p>
+    <p class="text-center">Afterthought: As of right now, January 2023, this site has no accessibility features which is a crutial component of any modern technology.
+      I am aiming to update this semi-frequently to improve the user experience, add accessibility options, and allow proper rescaling for mobile devices as I become more
+      comfortable with development.
+    </p>
   </div>
 
-  <!-- Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  
+    <script>
+      $(document).ready(function() {
+        $("#carouselExampleIndicators").carousel();
+      });
+    </script>
+  
