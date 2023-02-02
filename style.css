@@ -12,4 +12,26 @@ body {
   width: 50%;
 }
 
+.linkedin-button,
+.github-button {
+  font-weight: 500;
+  text-align: center;
+ 
+  display: flex;
+  align-items: center;
+  margin-left: 43%;
+  margin-right: 43%;
+}
+
+.container-links {
+  margin-left: 43%;
+  margin-right: 43%;
+  align-items: center;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.buttonspace {
+  padding: 10px 10px 10px 10px;
+}
 
