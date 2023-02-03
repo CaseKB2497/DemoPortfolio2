@@ -47,3 +47,8 @@ body {
 .carousel-control-prev-icon {
   background-color: black;
 }
+
+.carousel-item {
+  height: 300px;
+
+}
