@@ -35,3 +35,20 @@ body {
   padding: 10px 10px 10px 10px;
 }
 
+.resume-section{
+  border: 1px solid black;
+  border-radius: 25px;
+  padding: 10px 15px 1px 15px;
+  display: block;
+  background-color: rgba(192, 208, 243, 0.507);
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background-color: black;
+}
+
+.carousel-item {
+  height: 300px;
+
+}
